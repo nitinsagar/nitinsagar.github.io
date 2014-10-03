@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Nitin Sagar's Fight Club homepage</title>
+		<meta charset="UTF-8"></meta>
+	  	<link rel="stylesheet" type="text/css" href="./css/style.css"></link>
+	  	<script type="text/javascript" src="./js/jquery-2.1.1.min.js"></script>
+	  	<script type="text/javascript" src="./js/site.js"></script>
+	</head>
+	<body>
+		<div id="menu">
+			<div class="toggle">
+				<ul>
+					<li><a href="#rules">Rules</a></li>
+					<li>&nbsp</li>
+					<li><a href="#" onclick="toggle_hidden()">Talk about Fight Club?</a></li>
+				</ul>
+			</div>
+			<div class="toggle hidden">
+				<ul>
+					<li><a href="#" onclick="toggle_hidden()">Oops!</a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="content">
+			<h1>Fight Club</h1>
+			<div class="toggle">
+				<h2 id="rules">Rules</h2>
+				<p>Welcome to Fight Club. </p>
+				<ol>
+					<li>The first rule of Fight Club is: you do not talk about Fight Club.</li>
+					<li>The second rule of Fight Club is: you <b>DO NOT talk about Fight Club!</b></li>
+					<li>Third rule of Fight Club: someone yells <i>"stop!"</i>, goes limp, taps out, the fight is over.</li>
+					<li>Fourth rule: only two guys to a fight.</li>
+					<li>Fifth rule: one fight at a time, fellas.</li>
+					<li>Sixth rule: No shirts, no shoes.</li>
+					<li>Seventh rule: fights will go on as long as they have to.</li>
+					<li>And the eighth and final rule: if this is your first time at Fight Club, <b>you have to fight</b>.</li>
+			</div>
+			<div class="toggle hidden">
+				<h2 id="whyyoudothis">Why You Do This?</h2>
+				<img src="./images/whyyoudothis.jpg"></img>
+			</div>
+		</div>		
+	</body>
+</html>
