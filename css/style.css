@@ -1,35 +1,30 @@
 html, body {
-	height:100%;
 }
 
 body {
-	margin:0;
-	padding:0;
 	font-family: 'Roboto Slab', serif;
-	font-size:0.8em;
+	font-size:12px;
 	line-height:2em;
-	min-height:700px;
 	color:purple;
-	background: url('../images/background.jpg');
 }
 
 div#wrapper {
-	margin:20px auto 10px auto;
 	background:white;
-	width:960px;
-	min-height:100%;
-	border-radius:10px;
+}
+
+div#inner-wrapper {
+	background:purple;
 }
 
 div#menu {
-	width:220px;
-	float:left;
-	min-height:700px;
 	height:100%;
-	margin:10px 10px 30px 10px;
-	padding:0px;
+	padding:20px 0 0 20px;
 	color:white;
-	background:purple;
+}
+
+div#menu ul {
+	padding-left:0;
+	margin-left:0;
 }
 
 div#menu a {
@@ -41,21 +36,24 @@ div#menu a {
 div#menu li {
 	list-style-type: none;
 }
+
 div#content {
 	padding-top:5px;
-	margin-left:220px;
-	margin-right:10px;
 	min-height:100%;
 	padding-bottom:20px;
+	background:white;
 }
 
 div.hidden {
 	display:none;
 }
 
-h1 {
+h1, h2, h3 {
 	font-family: 'Playball', cursive;
-	font-size:5em;
+}
+
+h1 {
+	font-size:40px;
 }
 
 table {
@@ -72,7 +70,6 @@ div.clear {
 
 div#footer {
 	clear:both;
-	color:white;
 	margin:20px auto;
 	text-align: center;
 }
