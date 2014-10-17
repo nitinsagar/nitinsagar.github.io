@@ -73,3 +73,19 @@ div#footer {
 	margin:20px auto;
 	text-align: center;
 }
+
+.hidden {
+	display:none;
+}
+
+.nav>li>a {
+	margin-right:15px;
+}
+
+.nav>li>a:hover {
+	background:#46086d;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+	background:#46086d;
+}
