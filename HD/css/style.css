@@ -1,0 +1,96 @@
+html, body {
+}
+
+body {
+	font-family: 'Roboto Slab', serif;
+	font-size:12px;
+	line-height:2em;
+}
+
+div#wrapper {
+	background:white;
+}
+
+div#header {
+	margin-bottom:20px;
+}
+
+div#inner-wrapper {
+}
+
+div#menu {
+	height:100%;
+	padding:20px 0 0 20px;
+	color:white;
+}
+
+div#menu ul {
+	padding-left:0;
+	margin-left:0;
+}
+
+div#menu a {
+	color:white;
+	font-weight:bold;
+	text-decoration: none;
+}
+
+div#menu li {
+	list-style-type: none;
+}
+
+div#content {
+	padding-top:5px;
+	min-height:100%;
+	padding-bottom:20px;
+	background:white;
+}
+
+div.hidden {
+	display:none;
+}
+
+.center {
+	text-align:center;
+}
+h1, h2, h3, h4 {
+	font-family: 'Playball', cursive;
+	color: #cd1041;
+}
+
+h1 {
+	font-size:40px;
+}
+
+table {
+}
+
+td.tyler, td.narrator{
+	font-weight:bold;
+	width:200px;
+}
+
+div.row {
+	margin-bottom:20px;
+	padding-bottom:20px;
+	padding-top:20px;
+	border-bottom: 1px #DDD solid;
+}
+
+div.clear {
+	clear:both;
+}
+
+div#footer {
+	display:none;
+	clear:both;
+	margin:20px auto;
+	text-align: center;
+}
+
+span.chart-label-red {
+	color:red;
+}
+span.chart-label-green {
+	color:green;
+}
